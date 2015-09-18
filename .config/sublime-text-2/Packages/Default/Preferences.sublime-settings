@@ -40,13 +40,13 @@
     "rulers": [],
 
     // Set to true to turn spell checking on by default
-    "spell_check": false,
+    "spell_check": true,
 
     // The number of spaces a tab is considered equal to
     "tab_size": 4,
 
     // Set to true to insert spaces when tab is pressed
-    "translate_tabs_to_spaces": false,
+    "translate_tabs_to_spaces": true,
 
     // If translate_tabs_to_spaces is true, use_tab_stops will make tab and
     // backspace insert/delete up to the next tabstop
@@ -64,7 +64,7 @@
 
     // Adds whitespace up to the first open bracket when indenting. Requires
     // auto_indent to be enabled.
-    "indent_to_bracket": false,
+    "indent_to_bracket": true,
 
     // Trims white space added by auto_indent when moving the caret off the
     // line.
@@ -95,13 +95,13 @@
     // Set to true to draw a border around the visible rectangle on the minimap.
     // The color of the border will be determined by the "minimapBorder" key in
     // the color scheme
-    "draw_minimap_border": false,
+    "draw_minimap_border": true,
 
     // If enabled, will highlight any line with a caret
-    "highlight_line": false,
+    "highlight_line": true,
 
     // Valid values are "smooth", "phase", "blink", "wide" and "solid".
-    "caret_style": "smooth",
+    "caret_style": "solid",
 
     // Set to false to disable underlining the brackets surrounding the caret
     "match_brackets": true,
@@ -120,7 +120,7 @@
 
     // Set to false to not highlight angle brackets. This only takes effect if
     // match_brackets is true
-    "match_brackets_angle": false,
+    "match_brackets_angle": true,
 
     // Enable visualization of the matching tag in HTML and XML
     "match_tags": true,
@@ -188,7 +188,7 @@
     // Determines what character(s) are used to terminate each line in new files.
     // Valid values are 'system' (whatever the OS uses), 'windows' (CRLF) and
     // 'unix' (LF only).
-    "default_line_ending": "system",
+    "default_line_ending": "unix",
 
     // When enabled, pressing tab will insert the best matching completion.
     // When disabled, tab will only trigger snippets or insert a tab.
@@ -219,14 +219,14 @@
 
     // Controls if auto complete is shown when snippet fields are active.
     // Only relevant if auto_complete_commit_on_tab is true.
-    "auto_complete_with_fields": false,
+    "auto_complete_with_fields": true,
 
     // By default, shift+tab will only unindent if the selection spans
     // multiple lines. When pressing shift+tab at other times, it'll insert a
     // tab character - this allows tabs to be inserted when tab_completion is
     // enabled. Set this to true to make shift+tab always unindent, instead of
     // inserting tabs.
-    "shift_tab_unindent": false,
+    "shift_tab_unindent": true,
 
     // If true, the copy and cut commands will operate on the current line
     // when the selection is empty, rather than doing nothing.
@@ -257,12 +257,12 @@
     "tree_animation_enabled": true,
 
     // Makes tabs with modified files more visible
-    "highlight_modified_tabs": false,
+    "highlight_modified_tabs": true,
 
     "show_tab_close_buttons": true,
 
     // Show folders in the side bar in bold
-    "bold_folder_labels": false,
+    "bold_folder_labels": true,
 
     // OS X 10.7 only: Set to true to disable Lion style full screen support.
     // Sublime Text must be restarted for this to take effect.
